@@ -660,7 +660,7 @@ footer p {
 .education-timeline::before {
     content: "";
     position: absolute;
-    left: 145px;
+    left: 165px;
     top: 12px;
     bottom: 12px;
     width: 2px;
@@ -669,7 +669,7 @@ footer p {
 
 .timeline-item {
     display: grid;
-    grid-template-columns: 125px 40px 1fr;
+    grid-template-columns: 145px 40px 1fr;
     column-gap: 0;
     position: relative;
     margin-bottom: 48px;
@@ -678,11 +678,12 @@ footer p {
 
 .timeline-year {
     color: #762C46;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     line-height: 1.6;
     padding-top: 4px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0;
+    white-space: nowrap;
 }
 
 .timeline-dot {
