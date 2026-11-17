@@ -584,3 +584,15 @@ footer p {
     color: #F7F2EA !important;
     transform: translateY(-3px);
 }
+.hero-actions {
+    display: flex;
+    align-items: center !important;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.hero-actions a {
+    margin: 0 !important;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
