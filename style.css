@@ -539,3 +539,29 @@ footer p {
     transform: rotate(45deg);
     z-index: -1;
 }
+/* HOMEPAGE BUTTON GROUP */
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 28px;
+}
+
+.secondary-btn {
+    display: inline-block;
+    padding: 13px 24px;
+    border: 1.5px solid #762C46;
+    border-radius: 30px;
+    color: #762C46;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background: #762C46;
+    color: #F7F2EA;
+    transform: translateY(-3px);
+}
