@@ -760,3 +760,116 @@ footer p {
         padding-left: 15px;
     }
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience | Chahat Vanjani</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body class="experience-page">
+
+<header class="navbar">
+<a href="index.html" class="logo">CV.</a>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="education.html">Education</a>
+<a href="experience.html" class="active">Experience</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="page-header">
+<p class="eyebrow">GROWTH THROUGH EXPERIENCE</p>
+<h1>Experience &<br><em>Leadership.</em></h1>
+<p>Small responsibilities, new challenges and opportunities that have helped me become more confident and involved.</p>
+</div>
+
+<section class="content-section">
+<p class="eyebrow">01 / LEADERSHIP & INVOLVEMENT</p>
+<h2>Taking the lead.</h2>
+
+<div class="content-grid">
+
+<div class="content-card">
+<span class="date">STUDENT LEADERSHIP</span>
+<h3>Vice House Captain</h3>
+<p>
+Being a Vice House Captain gave me the opportunity to take
+responsibility, coordinate with fellow students and be more
+actively involved in school activities. It taught me that
+leadership is as much about being dependable as it is about
+taking charge.
+</p>
+</div>
+
+<div class="content-card">
+<span class="date">SCHOOL RESPONSIBILITY</span>
+<h3>English Communication Head</h3>
+<p>
+This role gave me a chance to be involved in communication
+activities and encourage others to express themselves.
+It helped me become more confident in sharing ideas,
+interacting with people and working together towards
+a common goal.
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="content-section">
+<p class="eyebrow">02 / SKILLS I'VE BUILT</p>
+<h2>A little growth along the way.</h2>
+
+<div class="content-grid">
+
+<div class="content-card">
+<h3>Teamwork</h3>
+<p>Learning to work with different people, listen to their ideas and contribute as a team.</p>
+</div>
+
+<div class="content-card">
+<h3>Leadership</h3>
+<p>Taking responsibility, stepping forward when needed and being accountable for my role.</p>
+</div>
+
+<div class="content-card">
+<h3>Communication</h3>
+<p>Expressing my thoughts clearly while also making an effort to understand others.</p>
+</div>
+
+<div class="content-card">
+<h3>Organisation</h3>
+<p>Balancing different responsibilities and making sure things come together smoothly.</p>
+</div>
+
+</div>
+</section>
+
+<section class="content-section">
+<p class="eyebrow">03 / WHAT LIES AHEAD</p>
+<h2>Just getting started.</h2>
+<p>
+I'm still at the beginning of my professional journey, with
+plenty of things I want to try and learn. I'm looking forward
+to working on projects, exploring internships and getting
+first-hand experience of how things work beyond a classroom.
+For now, I'm focused on staying curious, making the most of
+new opportunities and building skills that I'll carry with me
+into the future.
+</p>
+</section>
+
+<footer>
+<a href="index.html" class="logo">CV.</a>
+<p>Designed & created by Chahat Vanjani · © 2026</p>
+</footer>
+
+</body>
+</html>
