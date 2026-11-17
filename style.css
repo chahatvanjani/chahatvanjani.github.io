@@ -960,3 +960,19 @@ footer p {
     box-sizing: border-box;
     border-radius: 18px 5px 18px 5px;
 }
+.contact-details {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 650px !important;
+    gap: 20px !important;
+}
+
+.contact-details .contact-card {
+    width: 100% !important;
+    height: 190px !important;
+    min-height: 190px !important;
+    max-width: 100% !important;
+    aspect-ratio: auto !important;
+    box-sizing: border-box !important;
+}
