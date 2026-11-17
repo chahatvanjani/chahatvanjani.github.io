@@ -610,3 +610,100 @@ footer p {
     font-size: 11px;
     min-height: 42px;
 }
+
+/* EDUCATION PAGE - UNIQUE GEOMETRIC DESIGN */
+
+.education-page .page-header::before {
+    width: 105px;
+    height: 105px;
+    background: #A77991;
+    left: 9%;
+    right: auto;
+    top: 12%;
+    border-radius: 18% 82% 25% 75%;
+    transform: rotate(25deg);
+}
+
+.education-page .page-header::after {
+    width: 75px;
+    height: 75px;
+    background: #762C46;
+    right: 12%;
+    left: auto;
+    bottom: 12%;
+    border-radius: 50%;
+    transform: none;
+}
+
+/* EDUCATION TIMELINE */
+
+.education-timeline {
+    position: relative;
+    margin-top: 35px;
+    padding-left: 32px;
+}
+
+.education-timeline::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: #A77991;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -32px;
+    top: 25px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #762C46;
+    border: 3px solid #F7F2EA;
+    box-shadow: 0 0 0 2px #A77991;
+}
+
+.timeline-content {
+    background: #E8DCD5;
+    padding: 28px;
+    border-radius: 16px;
+}
+
+.timeline-content h3 {
+    margin: 12px 0;
+    color: #382A32;
+}
+
+.timeline-content p {
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.timeline-content .date {
+    color: #762C46;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .education-timeline {
+        padding-left: 25px;
+    }
+
+    .timeline-item::before {
+        left: -25px;
+    }
+
+    .timeline-content {
+        padding: 20px;
+    }
+}
