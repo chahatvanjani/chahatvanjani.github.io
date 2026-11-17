@@ -763,33 +763,47 @@ footer p {
 
 /* EXPERIENCE PAGE - UNIQUE GEOMETRIC DESIGN */
 
+
+/* EXPERIENCE PAGE - DISTINCT DESIGN */
+
 .experience-page .page-header {
-    isolation: isolate;
+    position: relative !important;
+    isolation: isolate !important;
+    overflow: hidden !important;
 }
 
 .experience-page .page-header::before {
-    width: 125px;
-    height: 125px;
-    background: #762C46;
-    left: 7%;
-    right: auto;
-    top: 10%;
-    border-radius: 50% 50% 12% 50%;
-    transform: rotate(-25deg);
-    z-index: 0;
+    content: "" !important;
+    display: block !important;
+    position: absolute !important;
+    width: 145px !important;
+    height: 85px !important;
+    background: #A77991 !important;
+    top: 18% !important;
+    left: auto !important;
+    right: 7% !important;
+    bottom: auto !important;
+    border-radius: 50px 10px 50px 10px !important;
+    transform: rotate(-35deg) !important;
+    opacity: 1 !important;
+    z-index: 0 !important;
 }
 
 .experience-page .page-header::after {
-    width: 75px;
-    height: 75px;
-    background: #A77991;
-    right: 9%;
-    left: auto;
-    bottom: 10%;
-    top: auto;
-    border-radius: 12px;
-    transform: rotate(25deg);
-    z-index: 0;
+    content: "" !important;
+    display: block !important;
+    position: absolute !important;
+    width: 90px !important;
+    height: 90px !important;
+    background: #762C46 !important;
+    top: auto !important;
+    right: 20% !important;
+    bottom: 8% !important;
+    left: auto !important;
+    border-radius: 12px !important;
+    transform: rotate(45deg) !important;
+    opacity: 1 !important;
+    z-index: 0 !important;
 }
 
 .experience-page .page-header > * {
@@ -797,11 +811,14 @@ footer p {
     z-index: 1;
 }
 
+/* EXPERIENCE CARDS */
+
 .experience-page .content-card {
-    border-radius: 8px 22px 8px 22px;
+    border-radius: 8px 24px 8px 24px;
+    border-left: 4px solid #762C46;
+    transition: transform 0.3s ease;
 }
 
 .experience-page .content-card:hover {
-    transform: translateY(-4px);
-    transition: transform 0.3s ease;
+    transform: translateY(-5px);
 }
