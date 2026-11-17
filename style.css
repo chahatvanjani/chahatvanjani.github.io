@@ -785,7 +785,7 @@ footer p {
     bottom: auto !important;
     border-radius: 50px 10px 50px 10px !important;
     transform: rotate(-35deg) !important;
-    opacity: 1 !important;
+    opacity: 0.35 !important;
     z-index: 0 !important;
 }
 
