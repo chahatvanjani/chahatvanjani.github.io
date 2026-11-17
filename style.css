@@ -565,3 +565,22 @@ footer p {
     color: #F7F2EA;
     transform: translateY(-3px);
 }
+.hero-actions a.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 24px;
+    border: 2px solid #762C46 !important;
+    border-radius: 30px;
+    color: #762C46 !important;
+    background: transparent !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero-actions a.secondary-btn:hover {
+    background: #762C46 !important;
+    color: #F7F2EA !important;
+    transform: translateY(-3px);
+}
