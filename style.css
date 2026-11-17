@@ -938,4 +938,13 @@ footer p {
         font-size: 22px;
     }
 }
+.contact-card a {
+    display: inline-block;
+    margin-top: 5px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
 
+.contact-card > div {
+    min-width: 0;
+}
