@@ -596,3 +596,12 @@ footer p {
     vertical-align: middle;
     box-sizing: border-box;
 }
+.hero-actions .primary-btn,
+.hero-actions .secondary-btn {
+    margin-top: 0 !important;
+    min-height: 48px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
